@@ -1,0 +1,26 @@
+{
+    "id": "A8464366",
+    "path": "~/Documents/WORKSPACE/wordcloud/wordcloud.Rmd",
+    "project_path": "wordcloud.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1603321785888.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "chunk_output_type": "inline",
+        "cursorPosition": "47,71",
+        "scrollLine": "35"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1603322805,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1603323015338,
+    "read_only": false,
+    "read_only_alternatives": []
+}

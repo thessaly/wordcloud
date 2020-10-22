@@ -1,0 +1,7 @@
+"0","# Read the text file "
+"0","filePath <- ""example.txt"""
+"0","text <- readLines(filePath)"
+"0",""
+"0","# Load the data as a tibble"
+"0","library(dplyr)"
+"0","text_df <- tibble(line = 1:15, text = text)"

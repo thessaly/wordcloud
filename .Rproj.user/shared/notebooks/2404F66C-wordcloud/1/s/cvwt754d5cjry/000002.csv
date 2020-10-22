@@ -1,0 +1,2 @@
+"0","frequency <- cleaner_df %>%"
+"0","              count(word, sort = TRUE) "

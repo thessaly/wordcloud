@@ -1,0 +1,6 @@
+"0","library(tidytext)"
+"0",""
+"0","token_df <- text_df %>%"
+"0","            unnest_tokens(word, text)"
+"0",""
+"0","token_df"
