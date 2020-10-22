@@ -7,3 +7,5 @@ Check [here](https://thessaly.github.io/wordcloud) for output format and walkthr
 - Text goes in `example.txt` 
 
 - Custom stopwords go in `stop.csv`
+
+Example text source: [Carrasco-Escobar et al., 2020](https://www.frontiersin.org/articles/10.3389/fpubh.2020.526468/full)
