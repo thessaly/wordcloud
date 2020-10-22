@@ -7,7 +7,7 @@ output: html_notebook
 
 ```{r}
 # Read the text file 
-filePath <- "example.txt"
+filePath <- "../example.txt"
 text <- readLines(filePath)
 
 # Load the data as a tibble
@@ -35,8 +35,9 @@ clean_df <- token_df %>%
 ```
 
 ## 4. Removing stopwords defined by me
+
 ```{r}
-mystop <- read.csv("stop.csv", header = TRUE)
+mystop <- read.csv("../stop.csv", header = TRUE)
 
 cleaner_df <- clean_df %>%
   anti_join(mystop, by = c("word" = "text"))
@@ -56,7 +57,7 @@ frequency <- cleaner_df %>%
 library(wordcloud)
 
 frequency %>%
- with(wordcloud(word, n, min.freq = 5, max.words = 100, random.order=FALSE, rot.per=0.35, colors=brewer.pal(8, "Dark2")))
+ with(wordcloud(word, n, min.freq = 4, max.words = 100, random.order=FALSE, rot.per=0.35, colors=brewer.pal(8, "Dark2")))
 ```
 
 ### Version B
