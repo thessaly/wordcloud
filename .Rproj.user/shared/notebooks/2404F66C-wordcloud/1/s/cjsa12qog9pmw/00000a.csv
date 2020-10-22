@@ -1,6 +1,0 @@
-"0","mystop <- read.csv(""stop.csv"", header = TRUE)"
-"2","incomplete final line found by readTableHeader on 'stop.csv'"
-"0","cleaner_df <- clean_df %>%"
-"0","  anti_join(mystop, by = c(""word"" = ""text""))"
-"0",""
-"0","cleaner_df"
